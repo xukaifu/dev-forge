@@ -1,0 +1,25 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "xukaifu"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by xukaifu",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "team-review",
+      "source": {
+        "source": "github",
+        "repo": "xukaifu/team-review"
+      },
+      "description": "Mandatory pre-commit quality gate for Claude Code. Runs parallel code reviews (security, performance, simplicity) with adversarial debate before allowing commits.",
+      "version": "1.0.0",
+      "author": {
+        "name": "xukaifu"
+      },
+      "keywords": ["code-review", "quality-gate", "security", "performance", "pre-commit"]
+    }
+  ]
+}
