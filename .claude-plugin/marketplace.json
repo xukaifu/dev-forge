@@ -12,7 +12,8 @@
       "name": "team-review",
       "source": {
         "source": "github",
-        "repo": "xukaifu/team-review"
+        "repo": "xukaifu/team-review",
+        "ref": "master"
       },
       "description": "Mandatory pre-commit quality gate for Claude Code. Runs parallel code reviews (security, performance, simplicity) with adversarial debate before allowing commits.",
       "version": "1.0.1",
