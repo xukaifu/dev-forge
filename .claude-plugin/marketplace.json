@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Claude Code plugins by xukaifu",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "plugins": [
     {
@@ -13,10 +13,10 @@
       "source": {
         "source": "github",
         "repo": "xukaifu/team-review",
-        "ref": "master"
+        "ref": "v1.1.1"
       },
-      "description": "Claude Code plugin that reviews staged changes with dynamically chosen parallel reviewers and adversarial challenge.",
-      "version": "1.1.0",
+      "description": "Claude Code plugin that reviews code changes with dynamically chosen parallel reviewers and adversarial challenge.",
+      "version": "1.1.1",
       "author": {
         "name": "xukaifu"
       },
